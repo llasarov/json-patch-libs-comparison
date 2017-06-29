@@ -1,0 +1,28 @@
+{
+  "name": "json-patch-libs-comparison",
+  "version": "1.0.0",
+  "description": "Small comparison of JSON PATCH libs from Github",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.0.2",
+    "clone": "^2.1.1",
+    "fast-json-patch": "^2.0.3",
+    "jiff": "^0.7.3",
+    "json8-patch": "^0.4.0",
+    "jsondiffpatch": "^0.2.4",
+    "make-runnable": "^1.3.6",
+    "patcher": "0.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "llasarov",
+  "license": "ISC"
+}
